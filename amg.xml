@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/janhenrik/kiCAD/amg/amg.sch</source>
+    <date>Di 09 Mai 2017 13:32:23 CEST</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>amg.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AMG8834</value>
+      <footprint>PROC_Grid_Eye:GridEyeSensor</footprint>
+      <libsource lib="amg-cache" part="AMG8834"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B17F</tstamp>
+    </comp>
+    <comp ref="1.5µF1">
+      <value>C_Small</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B233</tstamp>
+    </comp>
+    <comp ref="10µ11">
+      <value>C_Small</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B2B0</tstamp>
+    </comp>
+    <comp ref="1µF1">
+      <value>C_Small</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B407</tstamp>
+    </comp>
+    <comp ref="20Ohm1">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B42E</tstamp>
+    </comp>
+    <comp ref="10KOhm4">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B469</tstamp>
+    </comp>
+    <comp ref="10KOhm3">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B4E4</tstamp>
+    </comp>
+    <comp ref="10KOhm1">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B599</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Adress select</value>
+      <footprint>MTK3339_SMD:smd_Jumper</footprint>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909CF5B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909DB79</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X07</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909DC4E</tstamp>
+    </comp>
+    <comp ref="10KOhm2">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909B56E</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909E31E</tstamp>
+    </comp>
+    <comp ref="&gt;470OHM1">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909E3CE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="amg-cache" part="AMG8834">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMG8834</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="SDA" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="INT" type="input"/>
+        <pin num="5" name="AD_SELECT" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="VDD" type="input"/>
+        <pin num="10" name="AVDD-PC" type="input"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="DVDD-PC" type="input"/>
+        <pin num="13" name="VPP" type="input"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X07">
+      <description>Connector, single row, 01x07, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X10">
+      <description>Connector, single row, 01x10, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper">
+      <description>Jumper, generic, normally closed</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NC_Dual">
+      <description>Dual Jumper, normally closed</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="amg-cache">
+      <uri>/home/janhenrik/kiCAD/amg/amg-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="7" name="SCL">
+      <node ref="10KOhm3" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="8" name="SDA">
+      <node ref="10KOhm4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="1.5µF1" pin="2"/>
+      <node ref="J2" pin="7"/>
+      <node ref="10µ11" pin="2"/>
+      <node ref="20Ohm1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="J1" pin="10"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="10" name="VDD">
+      <node ref="J2" pin="6"/>
+      <node ref="10KOhm4" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="9"/>
+      <node ref="10KOhm1" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="10KOhm3" pin="1"/>
+      <node ref="10µ11" pin="1"/>
+      <node ref="10KOhm2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(10KOhm1-Pad2)">
+      <node ref="10KOhm1" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="12" name="AD_SELECT">
+      <node ref="JP1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="15" name="INT_B">
+      <node ref="J1" pin="2"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="16" name="INT">
+      <node ref="U1" pin="4"/>
+      <node ref="&gt;470OHM1" pin="1"/>
+      <node ref="10KOhm2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(&gt;470OHM1-Pad2)">
+      <node ref="JP2" pin="2"/>
+      <node ref="&gt;470OHM1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(1µF1-Pad1)">
+      <node ref="1µF1" pin="1"/>
+      <node ref="20Ohm1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(1µF1-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="1µF1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="23" name="Net-(1.5µF1-Pad1)">
+      <node ref="1.5µF1" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>

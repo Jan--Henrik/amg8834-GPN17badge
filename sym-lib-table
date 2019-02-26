@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name amg-rescue)(type Legacy)(uri ${KIPRJMOD}/amg-rescue.lib)(options "")(descr ""))
+)

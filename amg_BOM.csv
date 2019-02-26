@@ -1,0 +1,9 @@
+Reference,Value,Footprint,Count,Datasheet,FootprintLib
+U1,AMG8834,GridEyeSensor,1,,PROC_Grid_Eye
+1.5µF1,10µ11,1µF1,3,C_Small,C_0603
+20Ohm1,>470OHM1,R_Small,1,,R_0603
+10KOhm4,10KOhm3,10KOhm1,4,10KOhm2,R_0603
+JP1,Adress select,smd_Jumper,1,,MTK3339_SMD
+J1,CONN_01X10,Pin_Header_Straight_1x10_Pitch2.54mm,1,,Pin_Headers
+J2,CONN_01X07,Pin_Header_Straight_1x07_Pitch2.54mm,1,,Pin_Headers
+JP2,Jumper,Pin_Header_Straight_1x02_Pitch2.54mm,1,,Pin_Headers
